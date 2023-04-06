@@ -1,0 +1,593 @@
+{
+  "settings": {
+    "languages": [
+      "en"
+    ],
+    "forceNER": true,
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "autoSave": true,
+    "modelFileName": "model.nlp",
+    "executeActionsBeforeAnswers": false,
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "en"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "en": {
+        "settings": {
+          "locale": "en",
+          "trainByDomain": false,
+          "tag": "domain-manager-en",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "hello": {
+            "intent": "Next.greet",
+            "domain": "default"
+          },
+          "hi": {
+            "intent": "Next.greet",
+            "domain": "default"
+          },
+          "heii": {
+            "intent": "Next.greet",
+            "domain": "default"
+          },
+          "fee,is,structur,what": {
+            "intent": "Next.fees",
+            "domain": "default"
+          },
+          "about,fee,structur": {
+            "intent": "Next.fees",
+            "domain": "default"
+          },
+          "about,cse,depart,fee,strutur": {
+            "intent": "Next.cseFee",
+            "domain": "default"
+          },
+          "cse,depart,fee,is,strutur,what": {
+            "intent": "Next.EceFee",
+            "domain": "default"
+          },
+          "about,cse,fee,structur,tell": {
+            "intent": "Next.cseFee",
+            "domain": "default"
+          },
+          "about,ece,fee,strutur": {
+            "intent": "Next.EceFee",
+            "domain": "default"
+          },
+          "about,ece,fee,structur,tell": {
+            "intent": "Next.EceFee",
+            "domain": "default"
+          },
+          "for,inform,thank,you": {
+            "intent": "Next.Thank",
+            "domain": "default"
+          },
+          "bye,later,see,you": {
+            "intent": "Next.Thank",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "Next.greet": "default",
+          "Next.fees": "default",
+          "Next.cseFee": "default",
+          "Next.EceFee": "default",
+          "Next.Thank": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "Next.greet"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "Next.greet"
+          },
+          {
+            "domain": "default",
+            "utterance": "heii",
+            "intent": "Next.greet"
+          },
+          {
+            "domain": "default",
+            "utterance": "what is fees structure",
+            "intent": "Next.fees"
+          },
+          {
+            "domain": "default",
+            "utterance": "About fees Structure",
+            "intent": "Next.fees"
+          },
+          {
+            "domain": "default",
+            "utterance": "About Cse department fees Struture",
+            "intent": "Next.cseFee"
+          },
+          {
+            "domain": "default",
+            "utterance": "What is Cse fees Struture Department",
+            "intent": "Next.cseFee"
+          },
+          {
+            "domain": "default",
+            "utterance": "Tell about cse fees Structure",
+            "intent": "Next.cseFee"
+          },
+          {
+            "domain": "default",
+            "utterance": "About Ece fees Struture",
+            "intent": "Next.EceFee"
+          },
+          {
+            "domain": "default",
+            "utterance": "What is Cse fees Struture Department",
+            "intent": "Next.EceFee"
+          },
+          {
+            "domain": "default",
+            "utterance": "Tell about ece fees Structure",
+            "intent": "Next.EceFee"
+          },
+          {
+            "domain": "default",
+            "utterance": "Thank you for Information",
+            "intent": "Next.Thank"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bye see you later",
+            "intent": "Next.Thank"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "en",
+              "tag": "nlu-en",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "hello": 1,
+              "hi": 1,
+              "heii": 1,
+              "what": 1,
+              "is": 1,
+              "fee": 1,
+              "structur": 1,
+              "about": 1,
+              "cse": 1,
+              "depart": 1,
+              "strutur": 1,
+              "tell": 1,
+              "ece": 1,
+              "thank": 1,
+              "you": 1,
+              "for": 1,
+              "inform": 1,
+              "bye": 1,
+              "see": 1,
+              "later": 1
+            },
+            "intents": {
+              "Next.greet": 1,
+              "Next.fees": 1,
+              "Next.cseFee": 1,
+              "Next.EceFee": 1,
+              "Next.Thank": 1
+            },
+            "intentFeatures": {
+              "Next.greet": {
+                "hello": 1,
+                "hi": 1,
+                "heii": 1
+              },
+              "Next.fees": {
+                "what": 1,
+                "is": 1,
+                "fee": 1,
+                "structur": 1,
+                "about": 1
+              },
+              "Next.cseFee": {
+                "about": 1,
+                "cse": 1,
+                "depart": 1,
+                "fee": 1,
+                "strutur": 1,
+                "what": 1,
+                "is": 1,
+                "tell": 1,
+                "structur": 1
+              },
+              "Next.EceFee": {
+                "about": 1,
+                "ece": 1,
+                "fee": 1,
+                "strutur": 1,
+                "what": 1,
+                "is": 1,
+                "cse": 1,
+                "depart": 1,
+                "tell": 1,
+                "structur": 1
+              },
+              "Next.Thank": {
+                "thank": 1,
+                "you": 1,
+                "for": 1,
+                "inform": 1,
+                "bye": 1,
+                "see": 1,
+                "later": 1
+              }
+            },
+            "featuresToIntent": {
+              "hello": [
+                "Next.greet"
+              ],
+              "hi": [
+                "Next.greet"
+              ],
+              "heii": [
+                "Next.greet"
+              ],
+              "what": [
+                "Next.fees",
+                "Next.cseFee",
+                "Next.EceFee"
+              ],
+              "is": [
+                "Next.fees",
+                "Next.cseFee",
+                "Next.EceFee"
+              ],
+              "fee": [
+                "Next.fees",
+                "Next.cseFee",
+                "Next.EceFee"
+              ],
+              "structur": [
+                "Next.fees",
+                "Next.cseFee",
+                "Next.EceFee"
+              ],
+              "about": [
+                "Next.fees",
+                "Next.cseFee",
+                "Next.EceFee"
+              ],
+              "cse": [
+                "Next.cseFee",
+                "Next.EceFee"
+              ],
+              "depart": [
+                "Next.cseFee",
+                "Next.EceFee"
+              ],
+              "strutur": [
+                "Next.cseFee",
+                "Next.EceFee"
+              ],
+              "tell": [
+                "Next.cseFee",
+                "Next.EceFee"
+              ],
+              "ece": [
+                "Next.EceFee"
+              ],
+              "thank": [
+                "Next.Thank"
+              ],
+              "you": [
+                "Next.Thank"
+              ],
+              "for": [
+                "Next.Thank"
+              ],
+              "inform": [
+                "Next.Thank"
+              ],
+              "bye": [
+                "Next.Thank"
+              ],
+              "see": [
+                "Next.Thank"
+              ],
+              "later": [
+                "Next.Thank"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "en",
+                "tag": "nlu-en",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "hello",
+                "hi",
+                "heii",
+                "what",
+                "is",
+                "fee",
+                "structur",
+                "about",
+                "cse",
+                "depart",
+                "strutur",
+                "tell",
+                "ece",
+                "thank",
+                "you",
+                "for",
+                "inform",
+                "bye",
+                "see",
+                "later"
+              ],
+              "intents": [
+                "Next.greet",
+                "Next.fees",
+                "Next.cseFee",
+                "Next.EceFee",
+                "Next.Thank"
+              ],
+              "perceptrons": [
+                [
+                  6.943491458892822,
+                  6.943496227264404,
+                  6.943491458892822,
+                  -1.072129726409912,
+                  -1.072129726409912,
+                  -3.2091422080993652,
+                  -1.9961813688278198,
+                  -2.1368966102600098,
+                  -0.5697181820869446,
+                  -0.47560960054397583,
+                  -1.2128522396087646,
+                  -0.14774556457996368,
+                  -0.7860390543937683,
+                  -1.4684442281723022,
+                  -2.936887502670288,
+                  -1.4684442281723022,
+                  -1.4684442281723022,
+                  -1.4684442281723022,
+                  -1.4684442281723022,
+                  -1.4684442281723022,
+                  7.342220683836059
+                ],
+                [
+                  -0.7635183930397034,
+                  -0.763517439365387,
+                  -0.7635164260864258,
+                  1.3770185708999634,
+                  1.3770185708999634,
+                  4.130849361419678,
+                  6.637345314025879,
+                  2.7538352012634277,
+                  -5.597343444824219,
+                  -1.934959888458252,
+                  -2.5034544467926025,
+                  -8.688179969787598,
+                  -5.597333908081055,
+                  -0.1556161642074585,
+                  -0.3127001225948334,
+                  -0.1556161642074585,
+                  -0.1556161642074585,
+                  -0.15518362820148468,
+                  -0.15518362820148468,
+                  -0.15518362820148468,
+                  0.7635256266409604
+                ],
+                [
+                  -0.07284096628427505,
+                  -0.07007280737161636,
+                  -0.06740907579660416,
+                  -2.75140118598938,
+                  -2.75140118598938,
+                  -0.45514416694641113,
+                  -1.2845196723937988,
+                  2.2650790214538574,
+                  9.525474548339844,
+                  2.8190832138061523,
+                  0.7705487012863159,
+                  4.255295753479004,
+                  -4.431264400482178,
+                  -0.044134270399808884,
+                  -0.10288842022418976,
+                  -0.044134270399808884,
+                  -0.044134270399808884,
+                  -0.03999776765704155,
+                  -0.03999776765704155,
+                  -0.03999776765704155,
+                  -0.5226114364153511
+                ],
+                [
+                  -0.3824332356452942,
+                  -0.37135395407676697,
+                  -0.36056050658226013,
+                  2.55375075340271,
+                  2.55375075340271,
+                  0.007811093702912331,
+                  -4.406889915466309,
+                  -2.599684715270996,
+                  -1.3523873090744019,
+                  0.30889391899108887,
+                  4.293673515319824,
+                  8.186296463012695,
+                  13.899760246276855,
+                  -0.16591773927211761,
+                  -0.36872047185897827,
+                  -0.16591773927211761,
+                  -0.16591773927211761,
+                  -0.15031403303146362,
+                  -0.15031403303146362,
+                  -0.15031403303146362,
+                  -0.7152522064822245
+                ],
+                [
+                  -0.9345278143882751,
+                  -0.9302802085876465,
+                  -0.9295535087585449,
+                  -0.23798991739749908,
+                  -0.23798991739749908,
+                  -0.6806690096855164,
+                  -0.40901708602905273,
+                  -0.42860904335975647,
+                  -0.20110294222831726,
+                  -0.15268436074256897,
+                  -0.2576744556427002,
+                  -0.05865931883454323,
+                  -0.11477818340063095,
+                  2.671232223510742,
+                  5.342463493347168,
+                  2.671232223510742,
+                  2.671232223510742,
+                  2.671232223510742,
+                  2.671232223510742,
+                  2.671232223510742,
+                  0.9295539238711317
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "heii"
+      ],
+      [
+        "en",
+        "what is fees structure"
+      ],
+      [
+        "en",
+        "About fees Structure"
+      ],
+      [
+        "en",
+        "About Cse department fees Struture"
+      ],
+      [
+        "en",
+        "What is Cse fees Struture Department"
+      ],
+      [
+        "en",
+        "Tell about cse fees Structure"
+      ],
+      [
+        "en",
+        "About Ece fees Struture"
+      ],
+      [
+        "en",
+        "What is Cse fees Struture Department"
+      ],
+      [
+        "en",
+        "Tell about ece fees Structure"
+      ],
+      [
+        "en",
+        "Thank you for Information"
+      ],
+      [
+        "en",
+        "Bye see you later"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "en": {
+        "Next.greet": [
+          {
+            "answer": "Welcome How Can I help you"
+          }
+        ],
+        "Next.fees": [
+          {
+            "answer": "74K"
+          }
+        ],
+        "Next.cseFee": [
+          {
+            "answer": "54K"
+          }
+        ],
+        "Next.EceFee": [
+          {
+            "answer": "90K"
+          }
+        ],
+        "Next.Thank": [
+          {
+            "answer": "Pleasure Any Other Queries"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}

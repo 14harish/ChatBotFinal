@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@nlpjs/core": "^4.25.0",
+    "@nlpjs/lang-en-min": "^4.25.0",
+    "@nlpjs/nlp": "^4.26.0",
+    "@nlpjs/request-rn": "^4.25.0",
+    "body-parser": "^1.20.1",
+    "build": "^0.1.4",
+    "cors": "^2.8.5",
+    "corus": "^2.0.6",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "node": "^19.4.0",
+    "node-nlp": "^4.26.1",
+    "node-nlp-rn": "^3.5.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "terser": "^5.16.1"
+  }
+}
