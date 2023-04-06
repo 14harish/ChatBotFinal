@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/14harish/ChatBotFinal.git/static/css/main.f3fa99ec.css",
+    "main.js": "/14harish/ChatBotFinal.git/static/js/main.c3fd0439.js",
+    "static/media/botimg.jpg": "/14harish/ChatBotFinal.git/static/media/botimg.ea6836df1ca91e57c867.jpg",
+    "index.html": "/14harish/ChatBotFinal.git/index.html",
+    "main.f3fa99ec.css.map": "/14harish/ChatBotFinal.git/static/css/main.f3fa99ec.css.map",
+    "main.c3fd0439.js.map": "/14harish/ChatBotFinal.git/static/js/main.c3fd0439.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3fa99ec.css",
+    "static/js/main.c3fd0439.js"
+  ]
+}
