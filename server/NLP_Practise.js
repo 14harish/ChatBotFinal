@@ -66,13 +66,6 @@ exp.post("/in",async(req,res)=>{
 })
 
 
-// (async() => {
-//     await manage.train();
-//     manage.save();
-//     const response = await manage.process('en', 'About Cse department fees Struture');
-//     // console.log(response);
-//     console.log(response.answer);
-// })();
 
 
 exp.listen(8002,(req,res)=>{
