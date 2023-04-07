@@ -11,8 +11,11 @@ function App() {
 
   return (
     <div className="App">
+    <div className='main'>
+    <div>
+      <img src={logoImg} width="90px" height="70px"></img>
+      </div>
     <nav className='navbar'>
-      <li><img src={logoImg} width="200px" height="200px"></img></li>
       <li>Profile</li>
       <li>Placement</li>
       <li>PEO,PO,PSO</li>
@@ -22,14 +25,15 @@ function App() {
       <li>Students Achievements</li>
       <li>Roll of Honor</li>
       <li>Research</li>
-      <li>ChatBot</li>
-      <li><input type="image" src={img} width="100px" height="100px" onClick={
+    </nav>
+      <input type="image" src={img} width="100px" height="80px" onClick={
         ()=>{
           SerDirect(!direct);
         }
-      }/></li>
-    </nav>
-            
+      }/>
+      </div> 
+      <div className='botsam'>
+      </div>
       {direct && <Bot/> }
       {/* <Bot/> */}
     </div>

@@ -1,35 +1,55 @@
+
 .bot{
+    top: 15%;
     position: absolute;
-    width: 35rem;
-    height: 43rem;
+    width: 32rem;
+    height: 39rem;
+    background-color: aliceblue;
     /* right: 2rem; */
-    margin-left:400px ;
+    /* margin-top: 1000px; */
+    margin-left:920px ;
     bottom: 3rem;
     border: 10px solid black;
     border-radius: 20px 20px;
-    z-index: 1000;
+    /* z-index: 1000; */
     overflow: hidden;
-
+    background: url("image-3888x5184\ \(1\)\ \(1\).jpg") no-repeat;
+    /* opacity: 0.9; */
+    /* background-image:linear-gradient(rgba(109, 228, 255, 0.7),rgba(0, 0, 0, 0.7)),url("image-3888x5184\ \(1\)\ \(1\).jpg"); */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("image-3888x5184\ \(1\).jpg");
+    background-size: 100%;
+    background-position: 0px 0px;
 }
 .head{
-    height: 4rem;
-    text-align: center;
-    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    padding-top: 10px;
     border-radius: 10px 10px 0px 0px;
     color: black;
-    border-bottom:4px solid black ;
-    background-color: rgb(255, 221, 0);
+    /* border-bottom:4px solid black ; */
+    /* background-color: rgb(6, 230, 255); */
+    background-color: black;
+    color: white;
+    /* background: linear-gradient(to left top,rgb(0, 0, 0),rgb(12, 123, 207)); */
+    margin-bottom: 15px;
+}
+.head img{
+    padding-right: 20px;
 }
 .chat{
     padding: 10px;
     padding-top: 1px;
-    height: 33rem;
+    height: 31rem;
     overflow-y: scroll;
 }
-
+.chat::-webkit-scrollbar{
+    width: 0;
+}
 .foot{
-    padding-top: 20px;
-    height: 5rem;
+    padding-top: 13px;
+    /* height: 1rem; */
     background-color: black;
     display: flex;
     /* border-radius: 0px 0px 20px 20px; */
@@ -38,11 +58,12 @@ form{
     display: flex;
 } 
 .send{
-    background-color: black;
+    background-color: transparent;
+    border:0;
     color: gold;
     margin-right: 5px;
     margin-left: 12px;
-    margin-top: -16px;
+    margin-top: -8px;
     font-size: 45px;
 }
 .send:hover{
@@ -50,7 +71,7 @@ form{
     font-size: 50px;
 }
 .inVal{
-    height: 40px;
+    height: 30px;
     padding-left: 10px;
     border: 3px solid gold;
     font-size: 16px;
@@ -66,13 +87,13 @@ form{
 }
 .msg-user{
     display: flex;
-    justify-content: start;
+    justify-content: end;
 }
 .msg-bot{
     display: flex;
-    justify-content: end;
+    justify-content: start;
 }
-.msg-text-bot{
+.msg-text-user{
     padding: .5rem 1rem;
     color: white;
     font-size: 20px;
@@ -80,12 +101,14 @@ form{
     border-top-left-radius: 6rem;
     border-bottom-left-radius: 6rem;
     border-top-right-radius:6rem ;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.msg-text-user{
+.msg-text-bot{
     padding: .5rem 1rem;
     color: white;
     font-size: 20px;
-    background-color: rgb(78, 75, 75);
+    background-color: rgb(243, 130, 0);
     border-top-left-radius: 6rem;
     border-bottom-right-radius: 6rem;
     border-top-right-radius:6rem ;

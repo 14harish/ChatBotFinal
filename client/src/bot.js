@@ -5,7 +5,7 @@ import Message from "./message";
 import { useDispatch } from "react-redux";
 import * as chatBotAction from './store/action/chatBotAction'
 import axios from "axios";
-
+import img from './ksr.png';
 
 const Bot=()=>{
     const [msg,SetMsg]=useState("");
@@ -26,6 +26,7 @@ const Bot=()=>{
     return(
         <div className="bot">
             <div className="head"> 
+               <img src={img} width='35px' height='35px'></img>
                <h2>KSRCE CHATBOT</h2>
             </div>
             <div className="chat">
