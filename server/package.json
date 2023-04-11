@@ -24,7 +24,7 @@
   "main": "NLP_Practise.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon NLP_Practise.js",
+    "start":"node NLP_Practise.js",
     "build":"npm i"
   },
   "author": "",
