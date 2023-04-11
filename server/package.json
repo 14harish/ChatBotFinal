@@ -18,5 +18,14 @@
   "devDependencies": {
     "browserify": "^17.0.0",
     "terser": "^5.16.1"
-  }
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "NLP_Practise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
