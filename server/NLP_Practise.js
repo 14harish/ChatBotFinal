@@ -44,7 +44,7 @@ manage.addDocument('en','Bye see you later','Next.Thank');
 
 manage.addAnswer('en','Next.greet',"Welcome How Can I help you");
 manage.addAnswer('en','Next.fees','74K');
-manage.addAnswer('en','Next.cseFee','54K');
+manage.addAnswer('en','Next.cseFee','1.2L');
 manage.addAnswer('en','Next.EceFee',"90K");
 manage.addAnswer('en','Next.Thank',"Pleasure Any Other Queries");
 

@@ -22,11 +22,11 @@ const Message=()=>{
     const displayMessage=(message,i)=>{
         if(message.speak==="user"){
             return <div key={i} className="msg-user">
-                         <p className="msg-text-user">{message.text}</p>
+                         <p className="msg-text-user">{message.text}?</p>
                     </div>
         }else if(message.speak==="bot"){
             return <div key={i} className="msg-bot">
-                             <p className="msg-text-bot">{message.text}?</p>
+                             <p className="msg-text-bot">{message.text}</p>
                      </div>
         }
     }
