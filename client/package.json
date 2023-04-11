@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://github.com/14harish/ChatBotFinal.git",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
