@@ -2,29 +2,30 @@
 .bot{
     top: 15%;
     position: absolute;
-    width: 32rem;
-    height: 39rem;
-    background-color: aliceblue;
+    width: 28rem;
+    height: 34rem;
+    background-color: rgb(241, 250, 252);
+    /* background: transparent; */
     /* right: 2rem; */
     /* margin-top: 1000px; */
-    margin-left:880px ;
+    margin-left:800px ;
     bottom: 3rem;
-    border: 10px solid black;
+    /* border: 10px solid black; */
     border-radius: 20px 20px;
     /* z-index: 1000; */
     overflow: hidden;
-    background: url("image-3888x5184\ \(1\)\ \(1\).jpg") no-repeat;
+    /* background: url("image-3888x5184\ \(1\)\ \(1\).jpg") no-repeat; */
     /* opacity: 0.9; */
     /* background-image:linear-gradient(rgba(109, 228, 255, 0.7),rgba(0, 0, 0, 0.7)),url("image-3888x5184\ \(1\)\ \(1\).jpg"); */
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("image-3888x5184\ \(1\).jpg");
-    background-size: 100%;
-    background-position: 0px 0px;
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("image-3888x5184\ \(1\).jpg"); */
+    /* background-size: 100%; */
+    /* background-position: 0px 0px; */
 }
 .head{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2.5rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 3rem;
     padding-top: 10px;
     border-radius: 10px 10px 0px 0px;
     color: black;
@@ -36,20 +37,21 @@
     margin-bottom: 15px;
 }
 .head img{
+    padding-left: 10px;
     padding-right: 20px;
 }
 .chat{
     padding: 10px;
     padding-top: 1px;
-    height: 31rem;
+    height: 24rem;
     overflow-y: scroll;
 }
 .chat::-webkit-scrollbar{
     width: 0;
 }
 .foot{
-    padding-top: 13px;
-    /* height: 1rem; */
+    padding: 13px;
+    height: 5rem;
     background-color: black;
     display: flex;
     /* border-radius: 0px 0px 20px 20px; */
@@ -58,17 +60,16 @@ form{
     display: flex;
 } 
 .send{
-    background-color: transparent;
-    border:0;
+    display: flex;
+    background-color: transparent;  
+    border:2px solid black;
     color: gold;
-    margin-right: 5px;
-    margin-left: 12px;
-    margin-top: -8px;
-    font-size: 45px;
+    font-size: 20px;
+    padding: 10px;
 }
 .send:hover{
-    margin-right: 5px;
-    font-size: 50px;
+    /* margin-right: 5px;
+    font-size: 50px; */
 }
 .inVal{
     height: 30px;
@@ -103,6 +104,21 @@ form{
     border-top-right-radius:6rem ;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.navb{
+    display: flex;
+    list-style: none;
+}
+.navb li{
+    padding: 3px;
+    margin: 5px 2px 2px 2px;
+    border: 2px solid rgb(243, 130, 0);
+    border-radius: 10px;
+}
+.navb li:hover{
+    cursor: pointer;
+    background-color:  rgb(243, 130, 0);
+    color: white;
 }
 .msg-text-bot{
     padding: .5rem 1rem;

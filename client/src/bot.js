@@ -36,8 +36,10 @@ const Bot=()=>{
                 {/* <form> */}
                   <input type="text" name="in" className="inVal" value={msg} placeholder="Enter Message" onChange={(e)=>{
                       SetMsg(e.target.value)}}/>
-                   <button className="send" onClick={()=>{
-                          handleQuery()}}><RiSendPlaneFill/></button>
+                   {/* <button className="send" onClick={()=>{
+                          handleQuery()}}><RiSendPlaneFill/></button> */}
+                          <button className="send" onClick={()=>{
+                          handleQuery()}}>send</button> 
                 {/* </form> */}
             </div>
         </div>

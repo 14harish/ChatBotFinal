@@ -15,7 +15,7 @@ function App() {
     <div>
       <img src={logoImg} width="90px" height="70px"></img>
       </div>
-    <nav className='navbar'>
+    <nav className='navba'>
       <li>Profile</li>
       <li>Placement</li>
       <li>PEO,PO,PSO</li>
