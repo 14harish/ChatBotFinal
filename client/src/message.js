@@ -16,7 +16,7 @@ const Message=()=>{
             
             return <div key={i} className="msg-bot">
                              <p className="msg-text-bot">{message.text}</p>
-                           <p>{userClick}</p>
+                           {/* <p>{userClick}</p> */}
                      </div>
             }
     }

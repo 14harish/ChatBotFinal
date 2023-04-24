@@ -1,6 +1,6 @@
 
 .bot{
-    top: 15%;
+    top: 20%;
     position: absolute;
     width: 28rem;
     height: 34rem;
@@ -8,7 +8,7 @@
     /* background: transparent; */
     /* right: 2rem; */
     /* margin-top: 1000px; */
-    margin-left:800px ;
+    margin-left:950px ;
     bottom: 3rem;
     /* border: 10px solid black; */
     border-radius: 20px 20px;
