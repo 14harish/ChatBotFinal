@@ -71,47 +71,47 @@
             "intent": "Next.placementStd",
             "domain": "default"
           },
-          "2022-2023,batch": {
+          "2023,batch": {
             "intent": "Next.23",
             "domain": "default"
           },
-          "2021-2022,batch": {
+          "2022,batch": {
             "intent": "Next.22",
             "domain": "default"
           },
-          "2020-2021,batch": {
+          "2021,batch": {
             "intent": "Next.21",
             "domain": "default"
           },
-          "2019-2020,batch": {
+          "2020,batch": {
             "intent": "Next.20",
             "domain": "default"
           },
-          "2018-2019,batch": {
+          "2019,batch": {
             "intent": "Next.19",
             "domain": "default"
           },
-          "2017-2018,batch": {
+          "2018,batch": {
             "intent": "Next.18",
             "domain": "default"
           },
-          "2016-2017,batch": {
+          "2017,batch": {
             "intent": "Next.17",
             "domain": "default"
           },
-          "2015-2016,batch": {
+          "2016,batch": {
             "intent": "Next.16",
             "domain": "default"
           },
-          "2014-2015,batch": {
+          "2015,batch": {
             "intent": "Next.15",
             "domain": "default"
           },
-          "2013-2014,batch": {
+          "2014,batch": {
             "intent": "Next.14",
             "domain": "default"
           },
-          "2012-2013,batch": {
+          "2013,batch": {
             "intent": "Next.13",
             "domain": "default"
           },
@@ -195,57 +195,57 @@
           },
           {
             "domain": "default",
-            "utterance": "2022-2023 Batch",
+            "utterance": "2023 Batch",
             "intent": "Next.23"
           },
           {
             "domain": "default",
-            "utterance": "2021-2022 Batch",
+            "utterance": "2022 Batch",
             "intent": "Next.22"
           },
           {
             "domain": "default",
-            "utterance": "2020-2021 Batch",
+            "utterance": "2021 Batch",
             "intent": "Next.21"
           },
           {
             "domain": "default",
-            "utterance": "2019-2020 Batch",
+            "utterance": "2020 Batch",
             "intent": "Next.20"
           },
           {
             "domain": "default",
-            "utterance": "2018-2019 Batch",
+            "utterance": "2019 Batch",
             "intent": "Next.19"
           },
           {
             "domain": "default",
-            "utterance": "2017-2018 Batch",
+            "utterance": "2018 Batch",
             "intent": "Next.18"
           },
           {
             "domain": "default",
-            "utterance": "2016-2017 Batch",
+            "utterance": "2017 Batch",
             "intent": "Next.17"
           },
           {
             "domain": "default",
-            "utterance": "2015-2016 Batch",
+            "utterance": "2016 Batch",
             "intent": "Next.16"
           },
           {
             "domain": "default",
-            "utterance": "2014-2015 Batch",
+            "utterance": "2015 Batch",
             "intent": "Next.15"
           },
           {
             "domain": "default",
-            "utterance": "2013-2014 Batch",
+            "utterance": "2014 Batch",
             "intent": "Next.14"
           },
           {
             "domain": "default",
-            "utterance": "2012-2013 Batch",
+            "utterance": "2013 Batch",
             "intent": "Next.13"
           },
           {
@@ -293,6 +293,17 @@
               "log": true
             },
             "features": {
+              "2013": 1,
+              "2014": 1,
+              "2015": 1,
+              "2016": 1,
+              "2017": 1,
+              "2018": 1,
+              "2019": 1,
+              "2020": 1,
+              "2021": 1,
+              "2022": 1,
+              "2023": 1,
               "hello": 1,
               "hi": 1,
               "heii": 1,
@@ -312,18 +323,7 @@
               "placement": 1,
               "histori": 1,
               "of": 1,
-              "2022-2023": 1,
               "batch": 1,
-              "2021-2022": 1,
-              "2020-2021": 1,
-              "2019-2020": 1,
-              "2018-2019": 1,
-              "2017-2018": 1,
-              "2016-2017": 1,
-              "2015-2016": 1,
-              "2014-2015": 1,
-              "2013-2014": 1,
-              "2012-2013": 1,
               "thank": 1,
               "you": 1,
               "for": 1,
@@ -382,47 +382,47 @@
                 "of": 1
               },
               "Next.23": {
-                "2022-2023": 1,
+                "2023": 1,
                 "batch": 1
               },
               "Next.22": {
-                "2021-2022": 1,
+                "2022": 1,
                 "batch": 1
               },
               "Next.21": {
-                "2020-2021": 1,
+                "2021": 1,
                 "batch": 1
               },
               "Next.20": {
-                "2019-2020": 1,
+                "2020": 1,
                 "batch": 1
               },
               "Next.19": {
-                "2018-2019": 1,
+                "2019": 1,
                 "batch": 1
               },
               "Next.18": {
-                "2017-2018": 1,
+                "2018": 1,
                 "batch": 1
               },
               "Next.17": {
-                "2016-2017": 1,
+                "2017": 1,
                 "batch": 1
               },
               "Next.16": {
-                "2015-2016": 1,
+                "2016": 1,
                 "batch": 1
               },
               "Next.15": {
-                "2014-2015": 1,
+                "2015": 1,
                 "batch": 1
               },
               "Next.14": {
-                "2013-2014": 1,
+                "2014": 1,
                 "batch": 1
               },
               "Next.13": {
-                "2012-2013": 1,
+                "2013": 1,
                 "batch": 1
               },
               "Next.Thank": {
@@ -436,6 +436,39 @@
               }
             },
             "featuresToIntent": {
+              "2013": [
+                "Next.13"
+              ],
+              "2014": [
+                "Next.14"
+              ],
+              "2015": [
+                "Next.15"
+              ],
+              "2016": [
+                "Next.16"
+              ],
+              "2017": [
+                "Next.17"
+              ],
+              "2018": [
+                "Next.18"
+              ],
+              "2019": [
+                "Next.19"
+              ],
+              "2020": [
+                "Next.20"
+              ],
+              "2021": [
+                "Next.21"
+              ],
+              "2022": [
+                "Next.22"
+              ],
+              "2023": [
+                "Next.23"
+              ],
               "hello": [
                 "Next.greet"
               ],
@@ -496,9 +529,6 @@
               "of": [
                 "Next.placementStd"
               ],
-              "2022-2023": [
-                "Next.23"
-              ],
               "batch": [
                 "Next.23",
                 "Next.22",
@@ -510,36 +540,6 @@
                 "Next.16",
                 "Next.15",
                 "Next.14",
-                "Next.13"
-              ],
-              "2021-2022": [
-                "Next.22"
-              ],
-              "2020-2021": [
-                "Next.21"
-              ],
-              "2019-2020": [
-                "Next.20"
-              ],
-              "2018-2019": [
-                "Next.19"
-              ],
-              "2017-2018": [
-                "Next.18"
-              ],
-              "2016-2017": [
-                "Next.17"
-              ],
-              "2015-2016": [
-                "Next.16"
-              ],
-              "2014-2015": [
-                "Next.15"
-              ],
-              "2013-2014": [
-                "Next.14"
-              ],
-              "2012-2013": [
                 "Next.13"
               ],
               "thank": [
@@ -596,18 +596,18 @@
                 "placement",
                 "histori",
                 "of",
-                "2022-2023",
+                "2023",
                 "batch",
-                "2021-2022",
-                "2020-2021",
-                "2019-2020",
-                "2018-2019",
-                "2017-2018",
-                "2016-2017",
-                "2015-2016",
-                "2014-2015",
-                "2013-2014",
-                "2012-2013",
+                "2022",
+                "2021",
+                "2020",
+                "2019",
+                "2018",
+                "2017",
+                "2016",
+                "2015",
+                "2014",
+                "2013",
                 "thank",
                 "you",
                 "for",
@@ -1341,47 +1341,47 @@
       ],
       [
         "en",
-        "2022-2023 Batch"
+        "2023 Batch"
       ],
       [
         "en",
-        "2021-2022 Batch"
+        "2022 Batch"
       ],
       [
         "en",
-        "2020-2021 Batch"
+        "2021 Batch"
       ],
       [
         "en",
-        "2019-2020 Batch"
+        "2020 Batch"
       ],
       [
         "en",
-        "2018-2019 Batch"
+        "2019 Batch"
       ],
       [
         "en",
-        "2017-2018 Batch"
+        "2018 Batch"
       ],
       [
         "en",
-        "2016-2017 Batch"
+        "2017 Batch"
       ],
       [
         "en",
-        "2015-2016 Batch"
+        "2016 Batch"
       ],
       [
         "en",
-        "2014-2015 Batch"
+        "2015 Batch"
       ],
       [
         "en",
-        "2013-2014 Batch"
+        "2014 Batch"
       ],
       [
         "en",
-        "2012-2013 Batch"
+        "2013 Batch"
       ],
       [
         "en",
@@ -1475,7 +1475,7 @@
         ],
         "Next.18": [
           {
-            "answer": ""
+            "answer": "56"
           }
         ],
         "Next.17": [

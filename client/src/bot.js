@@ -40,7 +40,7 @@ const Bot=()=>{
         <div className="bot">
             <div className="head"> 
                <img src={img} width='35px' height='35px'></img>
-               <h2>KSRCE CHATBOT</h2>
+               <h2>KSRCE CHATBOT (CSE)</h2>
             </div>
             <div className="chat">
                 <Message/>
