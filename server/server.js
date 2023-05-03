@@ -23,6 +23,7 @@ manage.addDocument('en','Bye see you later','Next.Thank');
 manage.addDocument('en','About Cse department fees Struture','Next.Fees');
 manage.addDocument('en','What is Cse fees Struture Department','Next.Fees');
 manage.addDocument('en','Tell about cse fees Structure','Next.Fees');
+manage.addDocument('en','Tell about cse fees details fess fee detail','Next.Fees');
 
 
 //placement related questions
@@ -30,6 +31,7 @@ manage.addDocument('en','how many placed students','Next.placementStd');
 manage.addDocument('en','placement history','Next.placementStd');
 manage.addDocument('en','history of placement','Next.placementStd');
 
+manage.addDocument('en','history of placement','Next.placementStd');
 //Placement Batch detail
 manage.addDocument('en','2023 Batch','Next.23');
 manage.addDocument('en','2022 Batch','Next.22');
@@ -57,9 +59,10 @@ manage.addDocument('en','what are the company is visited','Next.company');
 
 
 //Year Fees 
-manage.addDocument('en','first year I year','Next.first');
-manage.addDocument('en','second year II year','Next.second');
-manage.addDocument('en','third year III year','Next.third');
+manage.addDocument('en','first year I year 1st year 1 st year ','Next.first');
+manage.addDocument('en','second year II year and 2nd year 2 nd year','Next.second');
+manage.addDocument('en','third year III year 3rd year 3 rd year','Next.third');
+manage.addDocument('en','third year IV year 4th year 4 th year','Next.fourth');
 
 
 
