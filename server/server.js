@@ -23,6 +23,7 @@ const manage = new NlpManager({ languages: ['en'], forceNER: true });
 
 // console.log(x[0].Question);
 // console.log(x[0].Answer);
+//Questtion
 manage.addDocument('en','hello','Next.greet');
 manage.addDocument('en','hi','Next.greet');
 manage.addDocument('en','heii','Next.greet');
@@ -34,9 +35,9 @@ manage.addDocument('en','About Cse department fees Struture','Next.cseFee');
 manage.addDocument('en','What is Cse fees Struture Department','Next.cseFee');
 manage.addDocument('en','Tell about cse fees Structure','Next.cseFee');
 
-manage.addDocument('en','About Ece fees Struture','Next.EceFee');
-manage.addDocument('en','What is Cse fees Struture Department','Next.EceFee');
-manage.addDocument('en','Tell about ece fees Structure','Next.EceFee');
+// manage.addDocument('en','About Ece fees Struture','Next.EceFee');
+// manage.addDocument('en','What is Cse fees Struture Department','Next.EceFee');
+// manage.addDocument('en','Tell about ece fees Structure','Next.EceFee');
 
 manage.addDocument('en','Thank you for Information','Next.Thank');
 manage.addDocument('en','Bye see you later','Next.Thank');
