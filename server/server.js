@@ -17,13 +17,14 @@ manage.addDocument('en','hello','Next.greet');
 manage.addDocument('en','hi','Next.greet');
 manage.addDocument('en','heii','Next.greet');
 manage.addDocument('en','Thank you for Information','Next.Thank');
-manage.addDocument('en','Bye see you later','Next.Thank');
+manage.addDocument('en','Bye see you later byee','Next.Thank');
 
 //cse fees detail
 manage.addDocument('en','About Cse department fees Struture','Next.Fees');
 manage.addDocument('en','What is Cse fees Struture Department','Next.Fees');
 manage.addDocument('en','Tell about cse fees Structure','Next.Fees');
 manage.addDocument('en','Tell about cse fees details fess fee detail','Next.Fees');
+manage.addDocument('en','Fees fee','Next.Fees');
 
 
 //placement related questions
@@ -31,7 +32,6 @@ manage.addDocument('en','how many placed students','Next.placementStd');
 manage.addDocument('en','placement history','Next.placementStd');
 manage.addDocument('en','history of placement','Next.placementStd');
 
-manage.addDocument('en','history of placement','Next.placementStd');
 //Placement Batch detail
 manage.addDocument('en','2023 Batch','Next.23');
 manage.addDocument('en','2022 Batch','Next.22');
@@ -55,7 +55,7 @@ manage.addDocument('en','which is highest package','Next.package');
 
 manage.addDocument('en','what are top company visited company','Next.company');
 manage.addDocument('en','what are the company is visited','Next.company');
-
+manage.addDocument('en','say top company','Next.company');
 
 
 //Year Fees 
@@ -76,6 +76,19 @@ manage.addDocument('en','what is college cutoff required','Next.cutoff');
 manage.addDocument('en','what are the need of details for joining college','Next.detailCol');
 manage.addDocument('en','Detail needs for college joining','Next.detailCol');
 manage.addDocument('en','What are document needed','Next.detailCol');
+
+manage.addDocument('en','Total no of working days in college','Next.workingDay');
+manage.addDocument('en','how many workig days in the week','Next.workingDay');
+
+manage.addDocument('en','what is college name','Next.clname');
+manage.addDocument('en','Name of the college','Next.clname');
+
+manage.addDocument('en','Is it phone is allowed to college','Next.phonecl');
+manage.addDocument('en','mobile is allowed in the college','Next.phonecl');
+
+//dress code 
+manage.addDocument('en','What is dress code','Next.dress');
+manage.addDocument('en','dress code of the college','Next.dress');
 
 //hostel fees
 manage.addDocument('en','what about hostel fees','Next.hostelfees');
@@ -153,6 +166,15 @@ manage.addAnswer('en','Next.CollegeTime',"9AM to 4PM");
 
 manage.addAnswer('en','Next.PeridDur',"There is 8 period and 45 minutes duration");
 
+manage.addAnswer('en','Next.workingDay',"There is 5 days Working day Monday->Friday");
+
+manage.addAnswer('en','Next.clname',"K.S.R College of Engineering");
+
+manage.addAnswer('en','Next.dress',"Formal dress");
+
+manage.addAnswer('en','Next.phonecl',"Phone will be collected by Rep and distribute after college timing");
+
+
 
 exp.post("/in",async(req,res)=>{
 let text =req.body.text;
@@ -161,6 +183,9 @@ let text =req.body.text;
     const response = await manage.process('en', text);
     console.log(response);
     text=response.answer;
+    if(response.answer==undefined){
+        text="Contact No:902839292 \n Contact for More details";
+    }
     res.send({text});
 })
 
