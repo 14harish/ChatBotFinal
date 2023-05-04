@@ -59,10 +59,14 @@ manage.addDocument('en','what are the company is visited','Next.company');
 
 
 //Year Fees 
-manage.addDocument('en','first year I year 1st year 1 st year ','Next.first');
-manage.addDocument('en','second year II year and 2nd year 2 nd year','Next.second');
-manage.addDocument('en','third year III year 3rd year 3 rd year','Next.third');
-manage.addDocument('en','third year IV year 4th year 4 th year','Next.fourth');
+manage.addDocument('en','first year I year 1st year 1 st year fees','Next.first');
+// manage.addDocument('en','1st year','Next.first');
+manage.addDocument('en','second year II year 2nd year 2 nd year fees','Next.second');
+// manage.addDocument('en','2nd year','Next.second');
+manage.addDocument('en','third year III year 3rd year 3 rd year fees','Next.third');
+// manage.addDocument('en','3rd year','Next.third');
+manage.addDocument('en','fourth year IV year 4th year 4 th year fees','Next.fourth');
+// manage.addDocument('en','4th year','Next.fourth');
 
 
 //common queries
@@ -71,6 +75,7 @@ manage.addDocument('en','what is college cutoff required','Next.cutoff');
 
 manage.addDocument('en','what are the need of details for joining college','Next.detailCol');
 manage.addDocument('en','Detail needs for college joining','Next.detailCol');
+manage.addDocument('en','What are document needed','Next.detailCol');
 
 //hostel fees
 manage.addDocument('en','what about hostel fees','Next.hostelfees');
@@ -127,10 +132,11 @@ manage.addAnswer('en','Next.13',"36 placed");
 
 //fees detail
 manage.addAnswer('en','Next.Fees',"Mention the Year");
-manage.addAnswer('en','Next.first',"1.25 Lakhs (current)");
-manage.addAnswer('en','Next.secound',"77 thousand (current)");
+
+manage.addAnswer('en','Next.first',"1.25 Lakhs first year(current)");
+manage.addAnswer('en','Next.second',"77 thousand second year(current)");
 manage.addAnswer('en','Next.third',"77 thousand for third year (current)");
-manage.addAnswer('en','Next.fourth',"77 thousand for third year (current)");
+manage.addAnswer('en','Next.fourth',"77 thousand for fourth year (current)");
 
 //common queries
 manage.addAnswer('en','Next.cutoff',"140 Cutoff required for joining cse for TNEA couceling");
