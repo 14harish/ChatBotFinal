@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import Bot from "./bot";
+import { IconBase } from "react-icons/lib";
 
 const Message=()=>{
     const messages=useSelector(state=>state.chatBot.messages )
@@ -15,7 +16,7 @@ const Message=()=>{
         }else if(message.speak==="bot"){
             
             return <div key={i} className="msg-bot">
-                             <p className="msg-text-bot">{message.text}</p>
+                           <p className="msg-text-bot">{message.text}</p>
                            {/* <p>{userClick}</p> */}
                      </div>
             }
