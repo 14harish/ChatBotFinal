@@ -65,9 +65,46 @@ manage.addDocument('en','third year III year 3rd year 3 rd year','Next.third');
 manage.addDocument('en','third year IV year 4th year 4 th year','Next.fourth');
 
 
+//common queries
+manage.addDocument('en','college minimum required cutoff','Next.cutoff');
+manage.addDocument('en','what is college cutoff required','Next.cutoff');
+
+manage.addDocument('en','what are the need of details for joining college','Next.detailCol');
+manage.addDocument('en','Detail needs for college joining','Next.detailCol');
+
+//hostel fees
+manage.addDocument('en','what about hostel fees','Next.hostelfees');
+manage.addDocument('en','hostel fees details','Next.hostelfees');
+
+//Buss fees
+manage.addDocument('en','there any bus fees','Next.Busfees');
+manage.addDocument('en','what about bus fees','Next.Busfees');
+
+//counsiling number
+manage.addDocument('en','what is counselling number','Next.counsilingNo');
+manage.addDocument('en','what is counselling code','Next.counsilingNo');
+manage.addDocument('en','college counselling Number','Next.counsilingNo');
+manage.addDocument('en','college code of counselling ','Next.counsilingNo');
+
+//sports quota
+manage.addDocument('en','There is sports quota','Next.sportQuota');
+manage.addDocument('en','what about sports quota','Next.sportQuota');
+
+//firstGradutaion
+manage.addDocument('en','First graduation detail','Next.firstGraduation');
+manage.addDocument('en','About First Graduation ','Next.firstGraduation');
+
+//college timing
+manage.addDocument('en','College Timeing','Next.CollegeTime');
+manage.addDocument('en','What about college duration','Next.CollegeTime');
+
+//period duration
+manage.addDocument('en','period duration','Next.PeridDur');
+manage.addDocument('en','period timing class timing class duration','Next.PeridDur');
+manage.addDocument('en','how many periods are in the one day','Next.PeridDur');
+manage.addDocument('en','In one day how many periods','Next.PeriodDur');
 
 //Answers---------------------------------------------------------------------------------
-
 manage.addAnswer('en','Next.greet',"Welcome How Can I help you"); //greet
 manage.addAnswer('en','Next.Thank',"Pleasure Any Other Queries"); //greet
 
@@ -95,10 +132,22 @@ manage.addAnswer('en','Next.secound',"77 thousand (current)");
 manage.addAnswer('en','Next.third',"77 thousand for third year (current)");
 manage.addAnswer('en','Next.fourth',"77 thousand for third year (current)");
 
-//
+//common queries
+manage.addAnswer('en','Next.cutoff',"140 Cutoff required for joining cse for TNEA couceling");
+manage.addAnswer('en','Next.detailCol',"*12th and 10th MarkSheet *Birth and comunity Certificate *Allotment seat(Counsiling)");
+manage.addAnswer('en','Next.hostelfees',"68 thousand for an year (current)");
+manage.addAnswer('en','Next.Busfees',"There No Bus Fees");
+manage.addAnswer('en','Next.counsilingNo',"Counselling Number is : 2613");
 
+manage.addAnswer('en','Next.sportQuota',"Yes There Sport Quota and Has fees deduction");
+
+manage.addAnswer('en','Next.firstGraduation',"Yes There will be 27500 deduction in fees");
+
+manage.addAnswer('en','Next.CollegeTime',"9AM to 4PM");
+
+manage.addAnswer('en','Next.PeridDur',"There is 8 period and 45 minutes duration");
 exp.post("/in",async(req,res)=>{
-    let text =req.body.text;
+let text =req.body.text;
     await manage.train();
     manage.save();
     const response = await manage.process('en', text);
@@ -108,6 +157,5 @@ exp.post("/in",async(req,res)=>{
 })
 
 exp.listen(8002,(req,res)=>{
-    console.log("connnectedddd.");
-    
+    console.log("connnectedddd.");  
 })
