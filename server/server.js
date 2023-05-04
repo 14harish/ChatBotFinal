@@ -146,6 +146,8 @@ manage.addAnswer('en','Next.firstGraduation',"Yes There will be 27500 deduction 
 manage.addAnswer('en','Next.CollegeTime',"9AM to 4PM");
 
 manage.addAnswer('en','Next.PeridDur',"There is 8 period and 45 minutes duration");
+
+
 exp.post("/in",async(req,res)=>{
 let text =req.body.text;
     await manage.train();
