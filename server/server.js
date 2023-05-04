@@ -122,6 +122,12 @@ manage.addDocument('en','period timing class timing class duration','Next.PeridD
 manage.addDocument('en','how many periods are in the one day','Next.PeridDur');
 manage.addDocument('en','In one day how many periods','Next.PeriodDur');
 
+//lab facility
+manage.addDocument('en','What about lab facility','Next.labFac');
+manage.addDocument('en','Lab facilities laboratory facility','Next.labFac');
+
+
+
 //Answers---------------------------------------------------------------------------------
 manage.addAnswer('en','Next.greet',"Welcome How Can I help you"); //greet
 manage.addAnswer('en','Next.Thank',"Pleasure Any Other Queries"); //greet
@@ -173,6 +179,8 @@ manage.addAnswer('en','Next.clname',"K.S.R College of Engineering");
 manage.addAnswer('en','Next.dress',"Formal dress");
 
 manage.addAnswer('en','Next.phonecl',"Phone will be collected by Rep and distribute after college timing");
+
+manage.addAnswer('en','Next.labFac',"Lab will be provided for the subject wise");
 
 
 
