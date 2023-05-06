@@ -25,6 +25,7 @@ manage.addDocument('en','What is Cse fees Struture Department','Next.Fees');
 manage.addDocument('en','Tell about cse fees Structure','Next.Fees');
 manage.addDocument('en','Tell about cse fees details fess fee detail','Next.Fees');
 manage.addDocument('en','Fees fee','Next.Fees');
+manage.addDocument('en','what is the year fees','Next.Fees');
 
 
 //placement related questions
@@ -51,13 +52,18 @@ manage.addDocument('en','how much company visited the college','Next.vistedCom')
 
 manage.addDocument('en','what was the highest package','Next.package');
 manage.addDocument('en','which is highest package','Next.package');
+manage.addDocument('en','what is highest salary','Next.package');
 
 
 manage.addDocument('en','what are top company visited company','Next.company');
 manage.addDocument('en','what are the company is visited','Next.company');
-manage.addDocument('en','say top company','Next.company');
+manage.addDocument('en','say top company visited','Next.company');
 
+manage.addDocument('en','Which year most No of student placed','Next.highYear');
+manage.addDocument('en','In which year most of the student placed and what is the count','Next.highYear');
 
+manage.addDocument('en','what was the average salary','Next.AveragePackage');
+manage.addDocument('en','Average package for the placed student','Next.AveragePackage');
 //Year Fees 
 manage.addDocument('en','first year I year 1st year 1 st year fees','Next.first');
 // manage.addDocument('en','1st year','Next.first');
@@ -125,17 +131,54 @@ manage.addDocument('en','In one day how many periods','Next.PeriodDur');
 //lab facility
 manage.addDocument('en','What about lab facility','Next.labFac');
 manage.addDocument('en','Lab facilities laboratory facility','Next.labFac');
+manage.addDocument('en','How many system available in the lab','Next.labsystem');
+manage.addDocument('en','System availability of the laboratory lab','Next.labsystem');
 
+//classroom
+manage.addDocument('en','How many classroom are provided','Next.classFac');
 
+//hod sir
+manage.addDocument('en','HOD name','Next.HOD');
+manage.addDocument('en','name of head of the department','Next.HOD');
+manage.addDocument('en','Name of hod sir','Next.HOD');
+
+//semester
+manage.addDocument('en','How many semester available','Next.sem');
+manage.addDocument('en','totally how many semester','Next.sem');
+manage.addDocument('en','what is semester fees','Next.semfees');
+manage.addDocument('en','How much is semester fees','Next.semfees');
+
+manage.addDocument('en','who created this chatbot website','Next.creater');
+
+//staff
+manage.addDocument('en','how many staff are in the college','Next.staff');
+manage.addDocument('en','staff available in the department','Next.staff');
+manage.addDocument('en','is the staff are trained','Next.staffdet');
+manage.addDocument('en','What about staff','Next.staffdet');
+manage.addDocument('en','What about proffsessors','Next.staffdet');
 
 //Answers---------------------------------------------------------------------------------
+
+manage.addAnswer('en','Next.staff',"There is 29 staff available https://ksrce.ac.in/index.php/page?id=135&item=113"); 
+manage.addAnswer('en','Next.staffdet',"Staff are company trained and certified staffs"); 
+manage.addAnswer('en','Next.labsystem',"There is two Lab for CSE and there is more than 100+ systems available"); 
+manage.addAnswer('en','Next.sem',"8 Semester"); 
+manage.addAnswer('en','Next.sem',"*Harish V *Barath S *Hariharan M"); 
+manage.addAnswer('en','Next.semfees',"Half of the year fees");
+
+manage.addAnswer('en','Next.HOD',"Dr. A. Rajiv Kannan"); 
+manage.addAnswer('en','Next.classFac',"There is total 8 classroom available for Ist year to IV the year"); 
+
+manage.addAnswer('en','Next.highYear',"In 2016 Highest placement were done 127 Student were placed"); 
+manage.addAnswer('en','Next.AveragePackage',"Average package is 4.2 LPA"); 
+
 manage.addAnswer('en','Next.greet',"Welcome How Can I help you"); //greet
 manage.addAnswer('en','Next.Thank',"Pleasure Any Other Queries"); //greet
 
 //Placement Batch
 manage.addAnswer('en','Next.placementStd',"Mention the Batch or the year");
 manage.addAnswer('en','Next.vistedCom',"50+ company as visited");
-manage.addAnswer('en','Next.package',"7.2 Lakhs");
+manage.addAnswer('en','Next.package',"7.2 LPA");
 manage.addAnswer('en','Next.company',"*ZOHO *Coding Mart *TCS *virtusa etc....");
 manage.addAnswer('en','Next.23',`63 placed`);
 manage.addAnswer('en','Next.22',"72 placed");
