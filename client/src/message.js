@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import Bot from "./bot";
+import { FaBeer } from 'react-icons/fa';
 import { IconBase } from "react-icons/lib";
 
 const Message=()=>{
@@ -16,7 +17,7 @@ const Message=()=>{
         }else if(message.speak==="bot"){
             
             return <div key={i} className="msg-bot">
-                           <p className="msg-text-bot">{message.text}</p>
+                         <FaBeer/><p></p> <p className="msg-text-bot">{message.text}</p>
                            {/* <p>{userClick}</p> */}
                      </div>
             }
@@ -31,7 +32,7 @@ const Message=()=>{
             <div className="msg-bot">
                  <p className="msg-text-bot">How Can We Help You</p>
              </div>
-             <nav className='navb' onClick={handle}><li>Placement</li><li>Admission</li><li>Fees Detail</li></nav>
+             <nav className='navb' onClick={handle}><a href="https://ksrce.ac.in/index.php/page?id=139&item=117"><li>Placement</li></a><a href="https://ksrce.ac.in/index.php/page?id=135&item=113"><li>Faculty profile</li></a><a href="https://ksrce.ac.in/index.php/page?id=418&item=6"><li>Fees Detail</li></a></nav>
             {
                 messages.map((message,i)=>{
                     return displayMessage(message,i)

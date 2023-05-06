@@ -152,7 +152,7 @@ manage.addDocument('en','who created this chatbot website','Next.creater');
 
 //staff
 manage.addDocument('en','how many staff are in the college','Next.staff');
-manage.addDocument('en','staff available in the department','Next.staff');
+manage.addDocument('en','staff available in the department how many staff available','Next.staff');
 manage.addDocument('en','is the staff are trained','Next.staffdet');
 manage.addDocument('en','What about staff','Next.staffdet');
 manage.addDocument('en','What about proffsessors','Next.staffdet');
@@ -162,7 +162,6 @@ manage.addDocument('en','What about proffsessors','Next.staffdet');
 manage.addAnswer('en','Next.staff',"There is 29 staff available https://ksrce.ac.in/index.php/page?id=135&item=113"); 
 manage.addAnswer('en','Next.staffdet',"Staff are company trained and certified staffs"); 
 manage.addAnswer('en','Next.labsystem',"There is two Lab for CSE and there is more than 100+ systems available"); 
-manage.addAnswer('en','Next.sem',"8 Semester"); 
 manage.addAnswer('en','Next.sem',"*Harish V *Barath S *Hariharan M"); 
 manage.addAnswer('en','Next.semfees',"Half of the year fees");
 
