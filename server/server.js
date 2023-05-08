@@ -51,8 +51,10 @@ manage.addDocument('en','how many company as visted','Next.vistedCom');
 manage.addDocument('en','how much company visited the college','Next.vistedCom');
 
 manage.addDocument('en','what was the highest package','Next.package');
-manage.addDocument('en','which is highest package','Next.package');
+manage.addDocument('en','which is highest package to package','Next.package');
 manage.addDocument('en','what is highest salary','Next.package');
+
+// manage.addDocument('en','How many student placed in the highest package','Next.package');
 
 
 manage.addDocument('en','what are top company visited company','Next.company');
@@ -116,7 +118,7 @@ manage.addDocument('en','what about sports quota','Next.sportQuota');
 
 //firstGradutaion
 manage.addDocument('en','First graduation detail','Next.firstGraduation');
-manage.addDocument('en','About First Graduation ','Next.firstGraduation');
+manage.addDocument('en','About First Graduation fees ','Next.firstGraduation');
 
 //college timing
 manage.addDocument('en','College Timeing','Next.CollegeTime');
@@ -125,7 +127,7 @@ manage.addDocument('en','What about college duration','Next.CollegeTime');
 //period duration
 manage.addDocument('en','period duration','Next.PeridDur');
 manage.addDocument('en','period timing class timing class duration','Next.PeridDur');
-manage.addDocument('en','how many periods are in the one day','Next.PeridDur');
+manage.addDocument('en','how many periods are in the one day available','Next.PeridDur');
 manage.addDocument('en','In one day how many periods','Next.PeriodDur');
 
 //lab facility
@@ -143,15 +145,15 @@ manage.addDocument('en','name of head of the department','Next.HOD');
 manage.addDocument('en','Name of hod sir','Next.HOD');
 
 //semester
-manage.addDocument('en','How many semester available','Next.sem');
-manage.addDocument('en','totally how many semester','Next.sem');
+manage.addDocument('en','How many sem semester available sem','Next.sem');
+manage.addDocument('en','totally how many semester sem','Next.sem');
 manage.addDocument('en','what is semester fees','Next.semfees');
 manage.addDocument('en','How much is semester fees','Next.semfees');
 
 manage.addDocument('en','who created this chatbot website','Next.creater');
 
 //staff
-manage.addDocument('en','how many staff are in the college','Next.staff');
+manage.addDocument('en','how many staff are in the college avialble','Next.staff');
 manage.addDocument('en','staff available in the department how many staff available','Next.staff');
 manage.addDocument('en','is the staff are trained','Next.staffdet');
 manage.addDocument('en','What about staff','Next.staffdet');
@@ -162,7 +164,8 @@ manage.addDocument('en','What about proffsessors','Next.staffdet');
 manage.addAnswer('en','Next.staff',"There is 29 staff available https://ksrce.ac.in/index.php/page?id=135&item=113"); 
 manage.addAnswer('en','Next.staffdet',"Staff are company trained and certified staffs"); 
 manage.addAnswer('en','Next.labsystem',"There is two Lab for CSE and there is more than 100+ systems available"); 
-manage.addAnswer('en','Next.sem',"*Harish V *Barath S *Hariharan M"); 
+manage.addAnswer('en','Next.creater',"*Harish V *Barath S *Hariharan M"); 
+manage.addAnswer('en','Next.sem',"8 Semester available 2 sem per Year"); 
 manage.addAnswer('en','Next.semfees',"Half of the year fees");
 
 manage.addAnswer('en','Next.HOD',"Dr. A. Rajiv Kannan"); 
