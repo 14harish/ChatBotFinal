@@ -1,18 +1,32 @@
 [
     {
-        "Question":"hello",
-        "Answer":"Welcome to Site"
+        "Question":"hello hi heii",
+        "Answer":"Welcome How Can I help you",
+        "keyword":"Next.greet"
     },
     {
-        "Question":"bye",
-        "Answer":"Thank you"
+        "Question":"Thank you see you later bye byee",
+        "Answer":"Pleasure Any Other Queries",
+        "keyword":"Next.Thank"
     },
     {
-        "Question":"cse fees",
-        "Answer":"Welcome to Site"
+        "Question":"fees cse fee",
+        "Answer":"Mention the Year",
+        "keyword":"Next.Fees"
     },
     {
-        "Question":"bye",
-        "Answer":"Thank you"
+        "Question":"fees fee",
+        "Answer":"mention which fees",
+        "keyword":"Next.fee"
+    },
+    {
+        "Question":"company visited count",
+        "Answer":"50+ company as visited",
+        "keyword":"Next.vistedCom"
+    },
+    {
+        "Question":"placed student",
+        "Answer":"Mention the Batch or the year",
+        "keyword":"Next.placementStd"
     }
 ]
