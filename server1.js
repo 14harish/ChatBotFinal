@@ -20,12 +20,13 @@ manage.addDocument('en','Thank you for Information','Next.Thank');
 manage.addDocument('en','Bye see you later byee','Next.Thank');
 
 //cse fees detail
-manage.addDocument('en','About Cse department fees Struture','Next.Fees');
-manage.addDocument('en','What is Cse fees Struture Department','Next.Fees');
-manage.addDocument('en','Tell about cse fees Structure','Next.Fees');
-manage.addDocument('en','Tell about cse fees details fess fee detail','Next.Fees');
-manage.addDocument('en','Fees fee','Next.Fees');
-manage.addDocument('en','what is the year fees','Next.Fees');
+// manage.addDocument('en','About Cse department fees Struture','Next.Fees');
+// manage.addDocument('en','What is Cse fees Struture Department','Next.Fees');
+// manage.addDocument('en','Tell about cse fees Structure','Next.Fees');
+// manage.addDocument('en','Tell about cse fees details fess fee detail','Next.Fees');
+// manage.addDocument('en','Fees fee','Next.Fees');
+// manage.addDocument('en','what is the year fees','Next.Fees');
+manage.addDocument('en','fees structure fee','Next.Fees');
 
 
 //placement related questions

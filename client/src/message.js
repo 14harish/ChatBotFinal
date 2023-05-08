@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import Bot from "./bot";
-import { FaBeer } from 'react-icons/fa';
 import { IconBase } from "react-icons/lib";
 
 const Message=()=>{
@@ -17,7 +16,7 @@ const Message=()=>{
         }else if(message.speak==="bot"){
             
             return <div key={i} className="msg-bot">
-                         <FaBeer/><p></p> <p className="msg-text-bot">{message.text}</p>
+                          <p className="msg-text-bot">{message.text}</p>
                            {/* <p>{userClick}</p> */}
                      </div>
             }
