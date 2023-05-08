@@ -234,6 +234,11 @@
         "keyword":"fourth year IV year 4th year 4 th year fees",
         "Answer":"77 thousand for fourth year (current)",
         "key":"Next.fourth"
+    },
+    {
+        "keyword":"college timing duration",
+        "Answer":"9 AM to 4 PM",
+        "key":"Next.CollegeTime"
     }
 ]
 }
