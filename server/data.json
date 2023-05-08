@@ -1,32 +1,34 @@
-[
+{
+    "data":[
     {
-        "Question":"hello hi heii",
+        "keyword":"hello hi heii",
         "Answer":"Welcome How Can I help you",
-        "keyword":"Next.greet"
+        "key":"Next.greet"
     },
     {
-        "Question":"Thank you see you later bye byee",
+        "keyword":"Thankyou see u thank you later bye byee",
         "Answer":"Pleasure Any Other Queries",
-        "keyword":"Next.Thank"
+        "key":"Next.Thank"
     },
     {
-        "Question":"fees cse fee",
+        "keyword":"fees cse fee",
         "Answer":"Mention the Year",
-        "keyword":"Next.Fees"
+        "key":"Next.Fees"
     },
     {
-        "Question":"fees fee",
+        "keyword":"fees fee",
         "Answer":"mention which fees",
-        "keyword":"Next.fee"
+        "key":"Next.fee"
     },
     {
-        "Question":"company visited count",
+        "keyword":"company visited count",
         "Answer":"50+ company as visited",
-        "keyword":"Next.vistedCom"
+        "key":"Next.vistedCom"
     },
     {
-        "Question":"placed student",
+        "keyword":"placed student",
         "Answer":"Mention the Batch or the year",
-        "keyword":"Next.placementStd"
+        "key":"Next.placementStd"
     }
 ]
+}

@@ -1,16 +1,15 @@
 'use strict'
-const cors=require('cors');
+const dataContent = require('./data.json');
 const express=require('express');
-
 const exp=express();
+const cors=require('cors');
 const body_parser=require('body-parser');
 exp.use(body_parser.urlencoded({extended:true}));
 exp.use(express.json());
-exp.use(cors())
+exp.use(cors());
 
 const {NlpManager}=require('node-nlp'); 
 const manage = new NlpManager({ languages: ['en'], forceNER: true });
-
 
 //questions-------------------------------------------------------------------------------------
 // manage.addDocument('en','hello hi heii','Next.greet'); //greeting
@@ -47,6 +46,10 @@ const manage = new NlpManager({ languages: ['en'], forceNER: true });
 // manage.addDocument('en','staff detail proffesor detail','Next.staffdet');// staff detail
 // manage.addDocument('en','staff available count proffesor','Next.staff'); // staff count
 
+dataContent.data.map(x=>{
+    manage.addDocument('en',x.keyword,x.key);
+    manage.addAnswer('en',x.key,x.Answer);
+})
 
 //Placement Batch detail
 manage.addDocument('en','2023 Batch','Next.23');
