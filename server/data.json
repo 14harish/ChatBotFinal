@@ -29,6 +29,211 @@
         "keyword":"placed student",
         "Answer":"Mention the Batch or the year",
         "key":"Next.placementStd"
+    },
+    {
+        "keyword":"highest package salary",
+        "Answer":"Mention the Batch or the year",
+        "key":"7.2 LPA Per Annum"
+    },
+    {
+        "keyword":"company visited",
+        "Answer":"count or list",
+        "key":"Next.dout"
+    },
+    {
+        "keyword":"top company visited list",
+        "Answer":"*ZOHO *Coding Mart *TCS *virtusa etc....",
+        "key":"Next.company"
+    },
+    {
+        "keyword":"most no number student placed student highest placed year",
+        "Answer":"In 2016 Highest placement were done 127 Student were placed",
+        "key":"Next.highYear"
+    },
+    {
+        "keyword":"average package salary",
+        "Answer":"Average package is 4.2 LPA",
+        "key":"Next.AveragePackage"
+    },
+    {
+        "keyword":"college cutoff ",
+        "Answer":"140 Cutoff required for joining cse for TNEA couceling",
+        "key":"Next.cutoff"
+    },
+    {
+        "keyword":"Document needed joining",
+        "Answer":"*12th and 10th MarkSheet *Birth and comunity Certificate *Allotment seat(Counsiling)",
+        "key":"Next.detailCol"
+    },
+    {
+        "keyword":"working days",
+        "Answer":"There is 5 days Working day Monday->Friday",
+        "key":"Next.workingDay"
+    },
+    {
+        "keyword":"college name",
+        "Answer":"K.S.R College of Engineering",
+        "key":"Next.clname"
+    },
+    {
+        "keyword":"phone allowed",
+        "Answer":"Phone will be collected by Rep and distribute after college timing",
+        "key":"Next.phonecl"
+    },
+    {
+        "keyword":"dress code",
+        "Answer":"Formal dress",
+        "key":"Next.dress"
+    },
+    {
+        "keyword":"hostel fees fee",
+        "Answer":"68 thousand for an year (current)",
+        "key":"Next.hostelfees"
+    },
+    {
+        "keyword":"counselling  number  code counsiling",
+        "Answer":"Counselling Number is : 2613",
+        "key":"Next.counsilingNo"
+    },
+    {
+        "keyword":"bus fees",
+        "Answer":"There No Bus Fees",
+        "key":"Next.Busfees"
+    },
+    {
+        "keyword":"sports quota",
+        "Answer":"Yes There Sport Quota and Has fees deduction",
+        "key":"Next.sportQuota"
+    },
+    {
+        "keyword":"College timing duration",
+        "Answer":"Mention the Batch or the year",
+        "key":"Next.CollegeTime"
+    },
+    {
+        "keyword":"first graduation",
+        "Answer":"Yes There will be 27500 deduction in fees",
+        "key":"Next.firstGraduation"
+    },
+    {
+        "keyword":"periods periods available timing class timing class duration",
+        "Answer":"There is 8 period and 45 minutes duration",
+        "key":"Next.PeridDur"
+    },
+    {
+        "keyword":"lab labaratory facility",
+        "Answer":"Lab will be provided for the subject wise",
+        "key":"Next.labFac"
+    },
+    {
+        "keyword":"System available",
+        "Answer":"There is two Lab for CSE and there is more than 100+ systems available",
+        "key":"Next.labsystem"
+    },
+    {
+        "keyword":"class room classroom provided available",
+        "Answer":"There is total 8 classroom available for Ist year to IV the year",
+        "key":"Next.classFac"
+    },
+    {
+        "keyword":"HOD name",
+        "Answer":"Dr. A. Rajiv Kannan",
+        "key":"Next.HOD"
+    },
+    {
+        "keyword":"Semester available count sem",
+        "Answer":"8 Semester available 2 sem per Year",
+        "key":"Next.sem"
+    },
+    {
+        "keyword":"semester fees sem",
+        "Answer":"Half of the year fees",
+        "key":"Next.semfees"
+    },
+    {
+        "keyword":"chatbot creater owner",
+        "Answer":"*Harish V *Barath S *Hariharan M",
+        "key":"Next.creater"
+    },
+    {
+        "keyword":"staff detail proffesor detail",
+        "Answer":"Staff are company trained and certified staffs",
+        "key":"Next.staffdet"
+    },
+    {
+        "keyword":"2023 Batch",
+        "Answer":"63 placed",
+        "key":"Next.23"
+    },
+    {
+        "keyword":"2022 Batch",
+        "Answer":"72 placed",
+        "key":"Next.22"
+    },
+    {
+        "keyword":"2021 Batch",
+        "Answer":"41 placed",
+        "key":"Next.21"
+    },
+    {
+        "keyword":"2020 Batch",
+        "Answer":"56 placed",
+        "key":"Next.20"
+    },
+    {
+        "keyword":"2019 Batch",
+        "Answer":"42 placed",
+        "key":"Next.19"
+    },
+    {
+        "keyword":"2018 Batch",
+        "Answer":"56 placed",
+        "key":"Next.18"
+    },
+    {
+        "keyword":"2017 Batch",
+        "Answer":"97 placed",
+        "key":"Next.17"
+    },
+    {
+        "keyword":"2016 Batch",
+        "Answer":"127 placed",
+        "key":"Next.16"
+    },
+    {
+        "keyword":"2015 Batch",
+        "Answer":"128 placed",
+        "key":"Next.15"
+    },
+    {
+        "keyword":"2014 Batch",
+        "Answer":"79 placed",
+        "key":"Next.14"
+    },
+    {
+        "keyword":"2013 Batch",
+        "Answer":"36 placed",
+        "key":"Next.13"
+    },
+    {
+        "keyword":"first year I year 1st year 1 st year",
+        "Answer":"1.25 Lakhs first year(current)",
+        "key":"Next.first"
+    },
+    {
+        "keyword":"second year II year 2nd year 2 nd year",
+        "Answer":"77 thousand second year(current)",
+        "key":"Next.second"
+    },
+    {
+        "keyword":"third year III year 3rd year 3 rd year",
+        "Answer":"77 thousand for third year (current)",
+        "key":"Next.third"
+    },
+    {
+        "keyword":"fourth year IV year 4th year 4 th year fees",
+        "Answer":"77 thousand for fourth year (current)",
+        "key":"Next.fourth"
     }
 ]
 }
