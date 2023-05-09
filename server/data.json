@@ -46,7 +46,7 @@
         "key":"Next.company"
     },
     {
-        "keyword":"most no number student placed student highest placed year",
+        "keyword":"most no number student placed students highest placed year",
         "Answer":"In 2016 Highest placement were done 127 Student were placed",
         "key":"Next.highYear"
     },
@@ -107,16 +107,16 @@
     },
     {
         "keyword":"College timing duration",
-        "Answer":"Mention the Batch or the year",
+        "Answer":"9 AM to 4 PM",
         "key":"Next.CollegeTime"
     },
     {
-        "keyword":"first graduation",
+        "keyword":"first graduation graduate",
         "Answer":"Yes There will be 27500 deduction in fees",
         "key":"Next.firstGraduation"
     },
     {
-        "keyword":"periods periods available timing class timing class duration",
+        "keyword":"periods period available timing class duration",
         "Answer":"There is 8 period and 45 minutes duration",
         "key":"Next.PeridDur"
     },
@@ -162,57 +162,57 @@
     },
     {
         "keyword":"2023 Batch",
-        "Answer":"63 placed",
+        "Answer":"63 placed in 2023 batch",
         "key":"Next.23"
     },
     {
         "keyword":"2022 Batch",
-        "Answer":"72 placed",
+        "Answer":"72 placed in 2022 batch",
         "key":"Next.22"
     },
     {
         "keyword":"2021 Batch",
-        "Answer":"41 placed",
+        "Answer":"41 placed in 2021 batch",
         "key":"Next.21"
     },
     {
         "keyword":"2020 Batch",
-        "Answer":"56 placed",
+        "Answer":"56 placed in 2020 batch",
         "key":"Next.20"
     },
     {
         "keyword":"2019 Batch",
-        "Answer":"42 placed",
+        "Answer":"42 placed in 2019 batch",
         "key":"Next.19"
     },
     {
         "keyword":"2018 Batch",
-        "Answer":"56 placed",
+        "Answer":"56 placed in 2018 batch",
         "key":"Next.18"
     },
     {
         "keyword":"2017 Batch",
-        "Answer":"97 placed",
+        "Answer":"97 placed in 2017 batch",
         "key":"Next.17"
     },
     {
         "keyword":"2016 Batch",
-        "Answer":"127 placed",
+        "Answer":"127 placed in 2016 batch",
         "key":"Next.16"
     },
     {
         "keyword":"2015 Batch",
-        "Answer":"128 placed",
+        "Answer":"128 placed in 2015 batch",
         "key":"Next.15"
     },
     {
         "keyword":"2014 Batch",
-        "Answer":"79 placed",
+        "Answer":"79 placed in 2014 batch",
         "key":"Next.14"
     },
     {
         "keyword":"2013 Batch",
-        "Answer":"36 placed",
+        "Answer":"36 placed in 2013 batch",
         "key":"Next.13"
     },
     {
@@ -234,11 +234,6 @@
         "keyword":"fourth year IV year 4th year 4 th year fees",
         "Answer":"77 thousand for fourth year (current)",
         "key":"Next.fourth"
-    },
-    {
-        "keyword":"college timing duration",
-        "Answer":"9 AM to 4 PM",
-        "key":"Next.CollegeTime"
     }
 ]
 }
