@@ -26,14 +26,14 @@
         "key":"Next.vistedCom"
     },
     {
-        "keyword":"placed student",
+        "keyword":"placed student placement",
         "Answer":"Mention the Batch or the year",
         "key":"Next.placementStd"
     },
     {
         "keyword":"highest package salary",
-        "Answer":"Mention the Batch or the year",
-        "key":"7.2 LPA Per Annum"
+        "Answer":"7.2 LPA Per Annum",
+        "key":"Next.highPack"
     },
     {
         "keyword":"company visited",

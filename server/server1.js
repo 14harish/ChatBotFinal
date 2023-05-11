@@ -32,5 +32,5 @@ let text =req.body.text;
 })
 
 exp.listen(8002,(req,res)=>{
-    console.log("connnectedddd.");  
+    console.log("Chat bot server successfully....");  
 })
