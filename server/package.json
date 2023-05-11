@@ -24,8 +24,8 @@
   "main": "NLP_Practise.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node NLP_Practise.js",
-    "build":"npm i"
+    "start": "node NLP_Practise.js",
+    "build": "npm i"
   },
   "author": "",
   "license": "ISC",
