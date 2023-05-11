@@ -321,7 +321,7 @@
           },
           {
             "domain": "default",
-            "utterance": "most no number student placed student highest placed year",
+            "utterance": "most no number student placed students highest placed year",
             "intent": "Next.highYear"
           },
           {
@@ -386,12 +386,12 @@
           },
           {
             "domain": "default",
-            "utterance": "first graduation",
+            "utterance": "first graduation graduate",
             "intent": "Next.firstGraduation"
           },
           {
             "domain": "default",
-            "utterance": "periods periods available timing class timing class duration",
+            "utterance": "periods period available timing class duration",
             "intent": "Next.PeridDur"
           },
           {
@@ -6309,7 +6309,7 @@
       ],
       [
         "en",
-        "most no number student placed student highest placed year"
+        "most no number student placed students highest placed year"
       ],
       [
         "en",
@@ -6361,11 +6361,11 @@
       ],
       [
         "en",
-        "first graduation"
+        "first graduation graduate"
       ],
       [
         "en",
-        "periods periods available timing class timing class duration"
+        "periods period available timing class duration"
       ],
       [
         "en",
