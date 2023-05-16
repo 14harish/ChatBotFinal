@@ -34,6 +34,6 @@ li{
 .botsam{
     height: 90.1vh;
     background: url("cecse_page-0001-min\ \(1\).jpg") no-repeat;
-    background-size: 131%;
     background-position: -199px 0px;
+    background-size: cover;
 }
