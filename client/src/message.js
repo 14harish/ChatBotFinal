@@ -14,7 +14,6 @@ const Message=()=>{
                          <p className="msg-text-user">{message.text}?</p>
                     </div>
         }else if(message.speak==="bot"){
-            
             return <div key={i} className="msg-bot">
                           <p className="msg-text-bot">{message.text}</p>
                            {/* <p>{userClick}</p> */}

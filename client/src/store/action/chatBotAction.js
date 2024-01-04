@@ -8,7 +8,7 @@ export const textQuery=(data)=>{
         dispatch({type:UPDATE_USER_MESSAGE,data:data})
         
         // const response="helllllo from bot";
-        const response=await axios.post('http://localhost:8002/in',
+        const response=await axios.post('https://chatsever-5bsa.onrender.com/in',
         {text:data.text})
         
         // console.log(response.data,"hello");
