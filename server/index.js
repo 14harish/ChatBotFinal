@@ -7,6 +7,8 @@ const body_parser=require('body-parser');
 exp.use(body_parser.urlencoded({extended:true}));
 exp.use(express.json());
 exp.use(cors());
+exp.use(express.static('public'));
+
 
 const {NlpManager}=require('node-nlp'); 
 const manage = new NlpManager({ languages: ['en'], forceNER: true });
