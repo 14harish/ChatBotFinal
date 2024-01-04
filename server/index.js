@@ -28,6 +28,7 @@ let text =req.body.text;
     if(response.answer==undefined){
         text="Contact No:902839292 \n Contact for More details";
     }
+    res.type('application/json');
     res.send({text});
 })
 
