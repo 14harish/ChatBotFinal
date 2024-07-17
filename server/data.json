@@ -71,7 +71,7 @@
         "key":"Next.workingDay"
     },
     {
-        "keyword":"college name",
+        "keyword":"college",
         "Answer":"K.S.R College of Engineering",
         "key":"Next.clname"
     },
@@ -136,9 +136,19 @@
         "key":"Next.classFac"
     },
     {
-        "keyword":"HOD name",
+        "keyword":"HOD",
         "Answer":"Dr. A. Rajiv Kannan",
         "key":"Next.HOD"
+    },
+    {
+        "keyword":"chairman",
+        "Answer":"Dr. A. Srinivasan Rangasamy",
+        "key":"Next.chairman"
+    },
+    {
+        "keyword":"founder",
+        "Answer":"Lion. Dr. K. S. Rangasamy",
+        "key":"Next.founder"
     },
     {
         "keyword":"Semester available count sem",
