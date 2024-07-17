@@ -33,7 +33,7 @@ const Message = () => {
             </div>
           </span>
           <p className="leading-relaxed">
-            <span className="block font-bold text-gray-700">AI </span>
+            <span className="block font-bold text-gray-700">Bot </span>
             {message.text}
           </p>
         </div>
@@ -58,8 +58,9 @@ const Message = () => {
           </div>
         </span>
         <p className="leading-relaxed">
-          <span className="block font-bold text-gray-700">AI </span>
+          <span className="block font-bold text-gray-700">Bot </span>
           Hi, how can I help you today?
+        <nav className='flex gap-2'><a href="https://ksrce.ac.in/index.php/page?id=139&item=117"><li className="border-2 p-1">Placement Detail</li></a><a href="https://ksrce.ac.in/index.php/page?id=135&item=113"><li className="border-2 p-1">Faculty Profile</li></a><a href="https://ksrce.ac.in/index.php/page?id=418&item=6"><li className="border-2 p-1">Fees Detail</li></a></nav>
         </p>
       </div>
       {messages.map((message, i) => (
