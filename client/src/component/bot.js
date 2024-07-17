@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import * as chatBotAction from "../store/action/chatBotAction";
-import Message from "../message";
+import Message from "./message";
 
 const Bot = () => {
   const [msg, SetMsg] = useState("");
