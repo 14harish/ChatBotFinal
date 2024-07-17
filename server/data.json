@@ -11,7 +11,7 @@
         "key":"Next.Thank"
     },
     {
-        "keyword":"fees cse fee college fees department fees",
+        "keyword":"fees cse fee college fees detail department fees detail",
         "Answer":"Mention the Year",
         "key":"Next.Fees"
     },
@@ -71,7 +71,7 @@
         "key":"Next.workingDay"
     },
     {
-        "keyword":"college",
+        "keyword":"college name",
         "Answer":"K.S.R College of Engineering",
         "key":"Next.clname"
     },
