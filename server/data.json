@@ -151,6 +151,11 @@
         "key":"Next.founder"
     },
     {
+        "keyword":"location area city town",
+        "Answer":"Tiruchengode",
+        "key":"Next.location"
+    },
+    {
         "keyword":"Semester available count sem",
         "Answer":"8 Semester available 2 sem per Year",
         "key":"Next.sem"
