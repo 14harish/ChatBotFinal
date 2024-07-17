@@ -21,11 +21,6 @@
         "key":"Next.collegefee"
     },
     {
-        "keyword":"fees fee",
-        "Answer":"mention which fees detail",
-        "key":"Next.fee"
-    },
-    {
         "keyword":"company visited count",
         "Answer":"50+ company as visited",
         "key":"Next.vistedCom"
