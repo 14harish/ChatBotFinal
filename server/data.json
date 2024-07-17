@@ -11,9 +11,14 @@
         "key":"Next.Thank"
     },
     {
-        "keyword":"fees cse fee college fees detail department fees detail",
+        "keyword":"fees cse fee college",
         "Answer":"Mention the Year",
         "key":"Next.Fees"
+    },
+    {
+        "keyword":"college fees department fees fee",
+        "Answer":"Mention the Year",
+        "key":"Next.collegefee"
     },
     {
         "keyword":"fees fee",
