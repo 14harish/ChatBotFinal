@@ -5,21 +5,11 @@
     width: 28rem;
     height: 34rem;
     background-color: rgb(241, 250, 252);
-    /* background: transparent; */
-    /* right: 2rem; */
-    /* margin-top: 1000px; */
+    
     margin-left:950px ;
     bottom: 3rem;
-    /* border: 10px solid black; */
     border-radius: 20px 20px;
-    /* z-index: 1000; */
     overflow: hidden;
-    /* background: url("image-3888x5184\ \(1\)\ \(1\).jpg") no-repeat; */
-    /* opacity: 0.9; */
-    /* background-image:linear-gradient(rgba(109, 228, 255, 0.7),rgba(0, 0, 0, 0.7)),url("image-3888x5184\ \(1\)\ \(1\).jpg"); */
-    /* background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("image-3888x5184\ \(1\).jpg"); */
-    /* background-size: 100%; */
-    /* background-position: 0px 0px; */
 }
 .head{
     display: flex;

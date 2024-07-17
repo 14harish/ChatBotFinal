@@ -1,41 +1,45 @@
-import './App.css';
-import img from './botimg.jpg';
-import logoImg from './ksrcelogo.jpg';
-import React from 'react';
-import { useState } from 'react';
-import Bot from './bot';
+import React, { useState } from "react";
+// import img from "./assets/botimg.jpg";
+import Navbar from "./component/Navbar";
+import Bot from "./component/bot";
+
+import ParticlesBackground from "./component/ParticlesBackground";
 
 
 function App() {
-  const[direct,SerDirect]=useState(false);
+  const [direct, SerDirect] = useState(false);
 
   return (
-    <div className="App">
-    <div className='main'>
-    <div>
-      <img src={logoImg} width="90px" height="70px"></img>
-      </div>
-    <nav className='navba'>
-      <li>Profile</li>
-      <li>Placement</li>
-      <li>PEO,PO,PSO</li>
-      <li>Vision & Mission</li>
-      <li>Circulam</li>
-      <li>Lab Infrastructure</li>
-      <li>Students Achievements</li>
-      <li>Roll of Honor</li>
-      <li>Research</li>
-    </nav>
-      <input type="image" src={img} width="100px" height="80px" onClick={
-        ()=>{
+    <div className="bg-custom-image bg-cover bg-center min-h-screen">
+            {/* <ParticlesBackground/> */}
+
+      <Navbar />
+      {/* <div className="h-16"></div> Spacer div for navbar height */}
+      {/* <div className="bg-custom-image bg-cover bg-center min-h-screen"> */}
+        {/* <input
+          type="image"
+          src={img}
+          width="100px"
+          height="80px"
+          alt="Chatbot"
+          className="fixed bottom-4 right-4 cursor-pointer"
+          onClick={() => {
+            SerDirect(!direct);
+          }}
+        /> */}
+        {/* <input
+        type="image"
+        src={img}
+        width="100px"
+        height="80px"
+        alt=""
+        onClick={() => {
           SerDirect(!direct);
-        }
-      }/>
-      </div> 
-      <div className='botsam'>
-      </div>
-      {direct && <Bot/> }
-      {/* <Bot/> */}
+        }}
+      /> */}
+        {direct && <Bot />}
+      {/* </div> */}
+      {/* Other content can go here */}
     </div>
   );
 }

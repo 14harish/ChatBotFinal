@@ -2,7 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chatbotreact.onrender.com/14harish/ChatBotFinal.git",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,6 +13,7 @@
     "react-icons": "^4.8.0",
     "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.12.2",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.2",
     "web-vitals": "^2.1.4"
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
   }
 }
